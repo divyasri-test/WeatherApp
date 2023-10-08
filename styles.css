@@ -1,0 +1,83 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    overflow: hidden;
+    max-width: 500px;
+    width: 100%;
+}
+
+header {
+    background-color: #ff00b3;
+    color: #fff;
+    padding: 1rem;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 1rem;
+}
+
+.search-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+#locationInput {
+    flex-grow: 1;
+    padding: 0.5rem;
+    border: none;
+    border-bottom: 2px solid #ff00b3;
+    border-radius: 0;
+    outline: none;
+    font-size: 1rem;
+}
+
+#locationInput::placeholder {
+    color: #ccc;
+}
+
+#locationInput:focus {
+    border-color: #ff00b3;
+}
+
+#unitToggle {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 1rem;
+}
+
+.unit-toggle {
+    display: flex;
+    align-items: center;
+}
+
+#weatherDisplay {
+    text-align: center;
+    padding: 1rem;
+}
+
+footer {
+    background-color: #ff00b3;
+    color: #fff;
+    padding: 0.5rem 0;
+}
